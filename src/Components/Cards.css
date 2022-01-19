@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root {
+    /*custom properties that contatin specific values to be reused throughout HTML document; accessed with the var() function*/
+    --main-color: #f5b562; 
+    --black: #13131a;
+    --bg: #82828b;
+    --border: .1rem solid rgba(255, 255, 255, .3); /*rem unit allows you to define a root em unit value on the html element,
+    then use values on subsequent elements that are relative to the specified root unit; rem will also scale specific page elements while leaving
+    others unaffected*/
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.cards {
+    padding: 4rem;
+    background: var(--black);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .cards_container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .cards_wrapper {
+    position: relative;
+    margin: 50px 0 45px;
+  }
+  
+  .cards_items {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+  
+  .cards_item {
+    display: flex;
+    flex:  1 1 33.333333%;
+    margin: 0 1rem 2rem;
+    border-radius: 10px;
+    background-color: #333f48;
+    flex-direction: column;
+    width: fit-content;
+  }
+  
+  .cards_item_link {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  
+  .cards_item_pic-wrap {
+    position: relative;
+    width: 100%;
+    padding-top: 67%;
+    overflow: hidden;
+  }
+  
+  .fade_img {
+    animation-name: fade-img;
+    animation-duration: 2s;
+  }
+  
+  .cards_item_pic-wrap::after {
+    content: attr(data-category);
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    padding: 6px 8px;
+    max-width: calc((100%) - 60px);
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #1f98f4;
+    box-sizing: border-box;
+  }
+  
+  .cards_item_img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    transition: all 0.5s linear;
+  }
+  
+  .cards_item_img:hover {
+    transform: scale(1.1);
+  }
+  
+  .cards_item_info {
+    padding: 20px 10px 30px;
+  }
+  
+  .cards_item_text {
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+
+  /* reponsive display  */
+  @media only screen and (min-width: 1200px) {
+    .content_blog_container {
+      width: 84%;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .cards_items {
+      display: flex;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .cards_item {
+      margin-bottom: 2rem;
+    }
+  }
+  

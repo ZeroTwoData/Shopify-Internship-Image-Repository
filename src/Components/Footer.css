@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root {
+    /*custom properties that contatin specific values to be reused throughout HTML document; accessed with the var() function*/
+    --main-color: #f5b562; 
+    --black: #13131a;
+    --bg: #82828b;
+    --footer-bg: #3b3b4783;
+    --text: #fff;
+    --border: .1rem solid rgba(255, 255, 255, .3); /*rem unit allows you to define a root em unit value on the html element,
+    then use values on subsequent elements that are relative to the specified root unit; rem will also scale specific page elements while leaving
+    others unaffected*/
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-container {
+  background-color: var(--footer-bg);
+  padding: 10px 0px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  height: fit-content; /*container will use the available space, but never more than max-content*/
+}
+
+.footer-share {
+  width: 100%;
+}
+
+#footer-box {
+  width: fit-content;
+  height: fit-content;
+  margin: 20px auto 10px auto;
+  display: flex;
+  text-decoration: none;
+}
+
+.footer-logo {
+  width: 36px;
+  height: 36px;
+  background-image: url('../Media/repo-logo.png');
+  background-color: var(--footer-bg);
+  background-size: 36px 36px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#footer-title {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.794);
+  margin: auto 5px;
+}
+
+.footer-credit {
+  margin: 10px auto;
+  text-align: center;
+  color: var(--text);
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.footer-credit span {
+  color: var(--main-color);
+  font-weight: lighter;
+}

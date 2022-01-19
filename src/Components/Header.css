@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root {
+    /*custom properties that contatin specific values to be reused throughout HTML document; accessed with the var() function*/
+    --main-color: #f5b562; 
+    --black: #13131a;
+    --bg: #82828b;
+    --footer-bg: #3b3b4783;
+    --text: #fff;
+    --hover: #ec969f;
+    --border: .1rem solid rgba(255, 255, 255, .3); /*rem unit allows you to define a root em unit value on the html element,
+    then use values on subsequent elements that are relative to the specified root unit; rem will also scale specific page elements while leaving
+    others unaffected*/
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: -webkit-sticky; /*included this css property to include Safari IOS 6.1+ devices*/
+    position: sticky;
+    top:0;
+    z-index: 10;
+    background-color: var(--black);
+    color: #333f48;
+    display: inline-flex;
+    width: 100%;
+    margin: 0;
+    height: 8vh;
+    clear: both;
+    border-bottom: 1px solid #333f48;
+    box-sizing: border-box;
+} 
+
+.header-link {
+    margin: auto 0px;
+    height: fit-content;
+    color: #333f48;
+    text-decoration: none;
+}
+
+.header-link:nth-child(1) {
+    display: inline-flex;
+}
+
+#header-container {
+    /*to support Firefox 3+, Firefox for Android 4+*/
+    width: -moz-fit-content;
+    width: fit-content;
+    height: fit-content;
+    margin: auto 30px;
+    float: left;
+}
+
+#header-logo, h1 {
+    margin: auto 5px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: auto;
+}
+
+#header-logo {
+    width: 36px;
+    height: 36px;
+    background-image: url('../Media/repo-logo.png');
+    background-color: var(--black);
+    background-size: 36px 36px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.794);
+}
+
+h1:hover {
+    color: var(--main-color);
+}
+
+nav {
+    display: inline-flex;
+    justify-content: right;
+    width: -moz-fit-content; /*to support Firefox 3+, Firefox for Android 4+*/
+    width: fit-content;
+    margin: auto 20px auto auto;
+    float: left;
+}
+
+nav > .header-link {
+    margin: auto 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: auto;
+    font-size: larger;
+    color: rgba(255, 255, 255, 0.794);
+}
+
+nav > .header-link:hover {
+    color: var(--hover);
+}
