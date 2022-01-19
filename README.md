@@ -49,6 +49,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 Conduct the test by typing this command in the terminal:
 ### `npm test`
 
+TRY THIS APP FOR YOURSELF BY CLICKING ON "gh-pages" underneath the "Environments" section on the right-hand side of the screen.
+Note: After opening the app, click on the title PC Setup Image Repository to initialize the repository for use
 
 THANK YOU FOR TAKING TIME TO USE THIS REPOSITORY! 😍
 
