@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Shopify-Internship-Image-Repository/static/css/main.722005da.chunk.css",
+    "main.js": "/Shopify-Internship-Image-Repository/static/js/main.4a2c20b3.chunk.js",
+    "main.js.map": "/Shopify-Internship-Image-Repository/static/js/main.4a2c20b3.chunk.js.map",
+    "runtime-main.js": "/Shopify-Internship-Image-Repository/static/js/runtime-main.e4f5b623.js",
+    "runtime-main.js.map": "/Shopify-Internship-Image-Repository/static/js/runtime-main.e4f5b623.js.map",
+    "static/js/2.9fe74c53.chunk.js": "/Shopify-Internship-Image-Repository/static/js/2.9fe74c53.chunk.js",
+    "static/js/2.9fe74c53.chunk.js.map": "/Shopify-Internship-Image-Repository/static/js/2.9fe74c53.chunk.js.map",
+    "index.html": "/Shopify-Internship-Image-Repository/index.html",
+    "static/css/main.722005da.chunk.css.map": "/Shopify-Internship-Image-Repository/static/css/main.722005da.chunk.css.map",
+    "static/js/2.9fe74c53.chunk.js.LICENSE.txt": "/Shopify-Internship-Image-Repository/static/js/2.9fe74c53.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/Shopify-Internship-Image-Repository/static/media/user.ec735cbd.svg",
+    "static/media/Footer.css": "/Shopify-Internship-Image-Repository/static/media/repo-logo.ef056746.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e4f5b623.js",
+    "static/js/2.9fe74c53.chunk.js",
+    "static/css/main.722005da.chunk.css",
+    "static/js/main.4a2c20b3.chunk.js"
+  ]
+}
