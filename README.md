@@ -28,7 +28,7 @@ ReactJS, MaterialUI, Firebase (Firestore & Firebase Storage)
 
 To run this project, type these commands in your terminal:
 ```
-$ git clone
+$ git clone https://github.com/ZeroTwoData/Shopify-Internship-Image-Repository.git
 $ npm install
 ```
 Then type:
