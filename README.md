@@ -1,6 +1,6 @@
 # Shopify-Image-Repository App
 
-2022 Spring Shopify Intern Chanllenge Developed with [Create React App](https://github.com/facebook/create-react-app). 
+2022 Data Engineering Spring Shopify Intern Chanllenge Developed with [Create React App](https://github.com/facebook/create-react-app). 
 
 ## Challenge
 Build an Image Repository.
