@@ -10,16 +10,18 @@ You can tackle this challenge using any technology you want. This is an open-end
 Please provide brief instructions on how to use your application. We are a test driven environment, so ensure your challenge includes tests. Provide brief instructions on how to use your application, so that someone could use your application and understand how it works.
 
 ## What is an Image Repository?
-A container where images are deposited and stored.
+They are public/private spaces wherein users upload and store images (public repos, such as this one, enable users to share and collaborate on container images). Data Engineers typically store unchangeable, static files that includes executable code so it can run an isolated process within these containers. But in place of static files this repo holds images of "aesthetic-looking" computer setups.
 
 ## What Is the Purpose of This Application?
-The purpose of this application is to store images of "aesthetic-looking" computer setups (hence the name of this repository, "Aesthetico"). Users can store images inside the repo, as well as share with others by rightclicking on the image to save to their drive. 
+The purpose of this application is to store images of "aesthetic-looking" computer setups (hence the name of this repository, "Aesthetico"). Users can upload and store images (one at a time) inside the repo, as well as share with others by rightclicking on the image to save to their drive. *A multiple upload feature will be included in the future
 
 ## How Does It Work?
 Currently there are two functions to this repo:
 
 1. Upload Build. Users can upload images from their computer to this repository
 2. Filter By Name. Users can filter images by their "Build Name" (**images in the repo are placed in alphabetical order)
+
+Note: Users CANNOT delete images they upload to this repo. So PLEASE PAY ATTENTION TO WHAT UPLOAD. *A delete feature will be included in the future
 
 ## What Technology Did You Use To Tackle This Challenge
 ReactJS, MaterialUI, Firebase (Firestore & Firebase Storage)
