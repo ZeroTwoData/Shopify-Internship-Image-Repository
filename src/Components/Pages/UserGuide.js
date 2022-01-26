@@ -27,7 +27,7 @@ export default function Link1() {
 
                 <h3 className="smaller_h1">Need More Info About How This Repository Work?</h3>
                 <p class='text_for_first'>
-                    Check Out My Github For Additional Info <a href="https://github.com/ZeroTwoData">https://github.com/ZeroTwoData</a>
+                    Check Out My Github READ_ME For Additional Info <a href="https://github.com/ZeroTwoData/Shopify-Internship-Image-Repository">https://github.com/ZeroTwoData/Shopify-Internship-Image-Repository </a>
                 </p>
                 <br></br>
 
