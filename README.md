@@ -1,13 +1,13 @@
 # Shopify-Image-Repository App
 
-2022 Spring Shopify Data Engineering Intern Chanllenge Developed with [Create React App](https://github.com/facebook/create-react-app). 
+2022 Spring Shopify Data Engineering Intern Challenge Developed with [Create React App](https://github.com/facebook/create-react-app). 
 
 ## Challenge
 Build an Image Repository.
 
 You can tackle this challenge using any technology you want. This is an open-ended task.
 
-Please provide brief instructions on how to use your application. We are a test driven environment, so ensure your challenge includes tests. Provide brief instructions on how to use your application, so that someone could use your application and understand how it works.
+Please provide brief instructions on how to use your application. We are a test-driven environment, so ensure your challenge includes tests. Provide brief instructions on how to use your application, so that someone could use your application and understand how it works.
 
 ## What is an Image Repository?
 They are public/private spaces wherein users upload and store images (public repos, such as this one, enable users to share and collaborate on container images).
